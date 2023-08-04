@@ -1,9 +1,10 @@
-package JavaBasico.Pacote2;
+package Pacote02;
 
 //Else-if, If, Else;
 
-public class Programa04 {
+public class Programa4 {
     public static void main(String[] args) {
+        
         //Declarando e inicializando a variavel;
         int numero = 5;
 

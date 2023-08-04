@@ -1,11 +1,12 @@
-package JavaBasico.Pacote3;
+package Pacote03;
 
 import java.util.Scanner;
 
 //for
-public class Programa09 {
-   public static void main(String[] args) {
-    
+
+public class Programa9 {
+    public static void main(String[] args) {
+        
         int idade;
         String nome;
         Scanner teclado = new Scanner(System.in);
@@ -25,5 +26,5 @@ public class Programa09 {
                 }
             }
         teclado.close();
-   }
+    }
 }

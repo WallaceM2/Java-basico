@@ -1,4 +1,4 @@
-package JavaBasico.Pacote3;
+package Pacote03;
 
 //Foreach // para cada
 

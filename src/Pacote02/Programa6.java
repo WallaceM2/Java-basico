@@ -1,8 +1,8 @@
-package JavaBasico.Pacote2;
+package Pacote02;
 
 //Instrução Switch
 
-public class Programa06 {
+public class Programa6 {
     public static void main(String[] args) {
         int numero = 50;
 

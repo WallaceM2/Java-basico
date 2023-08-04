@@ -1,10 +1,10 @@
-package JavaBasico.Pacote1;
+package Pacote01;
 
 //Variaveis
 
-public class Programa01 {
+public class Programa1 {
     public static void main(String[] args) {
-         //Declaração de variavel;
+        //Declaração de variavel;
          int valor;
 
          //Declaração de variaveis;
@@ -27,6 +27,5 @@ public class Programa01 {
          double _valor2 = 34.2;
  
          System.out.println(num10);
- 
     }
 }

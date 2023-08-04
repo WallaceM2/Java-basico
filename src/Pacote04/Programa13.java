@@ -1,4 +1,4 @@
-package JavaBasico.Pacote4;
+package Pacote04;
 
 //Tipos de dados alfanumericos;
 //Caracteres e strings;

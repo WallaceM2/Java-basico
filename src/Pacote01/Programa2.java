@@ -1,9 +1,10 @@
-package JavaBasico.Pacote1;
+package Pacote01;
 
 // O compilador e o bytecode
 
-public class Programa02 {
+public class Programa2 {
     public static void main(String[] args) {
+        
         //Declarando e inicializando variavel;
         int idade = 23;
 

@@ -1,4 +1,4 @@
-package JavaBasico.Pacote4;
+package Pacote04;
 
 //Operações matematicas;
 
@@ -39,6 +39,6 @@ public class Programa15 {
 
         res = num2 % 3;
         System.out.println(num2 + " é divisao por 3 ? " + res);
-
+        
     }
 }

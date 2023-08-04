@@ -1,10 +1,11 @@
-package JavaBasico.Pacote4;
+package Pacote04;
 
 //Tipos de dados;
 //Numericos (inteiros e reais);
 
 public class Programa11 {
     public static void main(String[] args) {
+        
         //Tipos primarios;
 
         long num0 = 99; // Inteiro 99999999999999999999999;
