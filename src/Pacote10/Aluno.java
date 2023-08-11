@@ -45,4 +45,9 @@ public class Aluno extends Pessoa {
     public String getNome() {
         return "Aluno: " + super.getNome();
     }
+
+    @Override
+    public void outra_mensagem(String texto) {
+       System.out.println(texto);
+    }
 }

@@ -5,10 +5,10 @@ package Pacote10;
 public class Programa28 {
     public static void main(String[] args) {
         
-        Pessoa p1 = new Pessoa("Louise Sophia", 2021, "Louise@gmail.com");
+        //Pessoa p1 = new Pessoa("Louise Sophia", 2021, "Louise@gmail.com");
 
-        System.out.println(p1);
-        System.out.println(p1.getNome());
+       // System.out.println(p1);
+       // System.out.println(p1.getNome());
         System.out.println("");
 
         Aluno a1 = new Aluno("Sophia Louise", 2021, "Sophia@gmail.com", "091221");
