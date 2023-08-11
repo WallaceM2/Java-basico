@@ -20,34 +20,34 @@ package Pacote10;
 
 public class Aluno extends Pessoa {
    
-    private String ra;
+                    private String ra;
 
-    public Aluno(String nome, int ano_nascimento, String email, String ra) {
-        super(nome, ano_nascimento, email);
-        //Pessoa(nome, ano_nascimento);
-        this.ra = ra;
-    }
+                    public Aluno(String nome, int ano_nascimento, String email, String ra) {
+                        super(nome, ano_nascimento, email);
+                        //Pessoa(nome, ano_nascimento);
+                        this.ra = ra;
+                    }
 
-    public String getRa() {
-        return ra;
-    }
+                    public String getRa() {
+                        return ra;
+                    }
 
-    public void setRa(String ra) {
-        this.ra = ra;
-    }
+                    public void setRa(String ra) {
+                        this.ra = ra;
+                    }
 
-    //Overriding / Sobrescrita de metodo
-    public String toString() {
-        return super.toString() + "\nR.A: " + this.ra;
-    }
+                    //Overriding / Sobrescrita de metodo
+                    public String toString() {
+                        return super.toString() + "\nR.A: " + this.ra;
+                    }
 
-    //Overriding / Sobrescrita de metodo
-    public String getNome() {
-        return "Aluno: " + super.getNome();
-    }
+                    //Overriding / Sobrescrita de metodo
+                    public String getNome() {
+                        return "Aluno: " + super.getNome();
+                    }
 
-    @Override
-    public void outra_mensagem(String texto) {
-       System.out.println(texto);
-    }
+                    @Override
+                    public void outra_mensagem(String texto) {
+                    System.out.println(texto);
+                    }
 }
