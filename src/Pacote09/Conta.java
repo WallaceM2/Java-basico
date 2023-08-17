@@ -27,6 +27,7 @@ public class Conta {
     public void sacar(float valor) {
         if(valor <= this.saldo) {
            this.saldo = this.saldo - valor;
+           System.out.println("Saque realizado com sucesso!");
         }else if(valor <= (this.saldo + this.limite)){
             //Calculando o valor excedente do saque
             //100 - 200 -> -100;
@@ -37,11 +38,17 @@ public class Conta {
             //val_ret = this.limite - val_ret;
             val_ret = this.limite + val_ret;
             this.limite = val_ret;
+            System.out.println("Saque realizado com sucesso!");
         }else {
             System.out.println("Saldo insuficiente!");
         }
         
     }
+
+    /**
+     * Metodo para realizar deposito
+     * @param valor a ser depositado;
+     */
     
     //100;
     //30;
@@ -51,6 +58,10 @@ public class Conta {
         this.saldo = this.saldo + valor;
     }
 
+    /**
+     * Metodo getter do atributo saldo
+     * @return a soma do saldo + limite;
+     */
     //Metodo Getter do atributo saldo;
     public float getSaldo() {
         return this.saldo + this.limite;
